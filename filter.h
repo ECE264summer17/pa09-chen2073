@@ -8,14 +8,7 @@ typedef struct BoxFilter {
 	float norm;
 } BoxFilter;
 
-//Apply blur box filter to input image, return pointer to blurred image
+Pixel calculateBlur(BMPImage * image, int i, int j);
+
 BMPImage * blur(BMPImage * image);
-
-//EXTRA CREDIT
-//Apply arbitrary 3x3 box filter to input image, return pointer
-BMPImage * apply(BMPImage * image, BoxFilter f);
-
-//Read in a box filter spec from the given input file
-BoxFilter * readFilter(FILE * infile);
-
 #endif
