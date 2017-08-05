@@ -1,0 +1,15 @@
+TEST CASE: 1 (Read Image): 
+Tests for test1.bmp
+PASS
+TEST CASE: 2 (Write Image): 
+Tests for test1.bmp
+PASS
+TEST CASE: 3 (Blur Image): 
+Tests for test1.bmp
+PASS
+TEST CASE: valgrind
+memcheck.log.test1.bmp_0
+memcheck.log.test1.bmp_1
+memcheck.log.test1.bmp_2
+ PASS
+Points: 4.000000 
